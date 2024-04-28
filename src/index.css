@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.section {
+  @apply px-5 max-w-[1560px] mx-auto 2xl:max-w-[1240px];
+}
+
+.containerAlt {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1560px;
+  width: 100%;
+}
